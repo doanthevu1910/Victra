@@ -1,12 +1,52 @@
-# PC Components
+# Hardware
 
 ```
-CPU:      Intel® Core™ i5-10400F
-GPU:      SAPPHIRE NITRO+ RX 580 8G G5 SE
-RAM:      Kingston FURY™ Beast 16GB (2x8GB) DDR4 2666MHz
-SSD:      XPG SX8200 Pro 512GB
+CPU:         Intel® Core™ i5-10400F
+GPU:         SAPPHIRE NITRO+ RX 580 8G G5 SE
+RAM:         Kingston FURY™ Beast 16GB (2x8GB) DDR4 2666MHz
+SSD:         XPG SX8200 Pro 512GB
 Motherboard: ASRock B460M Pro4
-Audio codec: 
-Ethernet card:
-Wifi/Bluetooth card:
+Audio codec: Realtek ALC1200
+Ethernet card: Intel® Gigabit LAN
+Wifi/Bluetooth card: None
+```
+
+# macOS Monterey 12.4 & OpenCore 0.8.0
+
+https://dortania.github.io/OpenCore-Desktop-Guide
+
+# Works
+- Sleep
+- Wake
+- Audio
+- Ethernet
+- All ports
+
+# Doesn't work
+- AirDrop, Handoff, Continuity
+
+# Result
+![Info](/images/about.png)
+
+# Note
+
+Please change MLB, SystemSerialNumber, and SystemUUID using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS).
+
+```
+<dict>
+    <key>AdviseWindows</key>
+    <false/>
+    <key>MLB</key>
+    <string>xxxxxxxxxxxxxxx</string>
+    <key>ROM</key>
+    <data>xxxxxxxx</data>
+    <key>SpoofVendor</key>
+    <true/>
+    <key>SystemProductName</key>
+    <string>iMac20,1</string>
+    <key>SystemSerialNumber</key>
+    <string>xxxxxxxxxxx</string>
+    <key>SystemUUID</key>
+    <string>xxxxxxxx-xxxxx-xxxxx-xxxx-xxxxxxxx</string>
+</dict>
 ```
