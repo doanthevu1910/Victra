@@ -1,13 +1,13 @@
 # Hardware
 
 ```
-CPU:         Intel® Core™ i5-10400F
-GPU:         SAPPHIRE NITRO+ RX 580 8G G5 SE
-RAM:         Kingston FURY™ Beast 16GB (2x8GB) DDR4 2666MHz
-SSD:         XPG SX8200 Pro 512GB
-Motherboard: ASRock B460M Pro4
-Audio codec: Realtek ALC1200
-Ethernet card: Intel® Gigabit LAN
+CPU:                 Intel® Core™ i5-10400F
+GPU:                 SAPPHIRE NITRO+ RX 580 8G G5 SE
+RAM:                 Kingston FURY™ Beast 16GB (2x8GB) DDR4 2666MHz
+SSD:                 XPG SX8200 Pro 512GB
+Motherboard:         ASRock B460M Pro4
+Audio codec:         Realtek ALC1200
+Ethernet card:       Intel® Gigabit LAN
 Wifi/Bluetooth card: None
 ```
 
@@ -20,13 +20,13 @@ https://dortania.github.io/OpenCore-Desktop-Guide
 - Wake
 - Audio
 - Ethernet
-- All ports
+- All USB ports (2.0, 3.0 & Type-C)
 
 # Doesn't work
-- AirDrop, Handoff, Continuity
+- AirDrop, Handoff, Continuity (native Wifi/Bluetooth card needed)
 
 # Result
-![Info](/images/about.png)
+![Info](https://github.com/doanthevu1910/Victra/blob/455ae18fdad9d4f60b1b3ebc322ded52d4a9bfec/images/Screen%20Shot%202022-09-17%20at%2013.12.09.png)
 
 # Note
 
