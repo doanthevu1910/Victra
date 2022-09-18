@@ -20,6 +20,7 @@ https://dortania.github.io/OpenCore-Desktop-Guide
 - Audio
 - Ethernet
 - All USB ports (2.0, 3.0 & Type-C)
+- All Apple services (FaceTime, Find My, iMessage, iCloud)
 
 # Doesn't work
 - AirDrop, Handoff, Continuity (native Wifi/Bluetooth card needed)
