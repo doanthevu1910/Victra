@@ -7,7 +7,7 @@ RAM:                 Kingston FURY™ Beast 16GB (2x8GB) DDR4 2666MHz
 SSD:                 XPG SX8200 Pro 512GB
 Motherboard:         ASRock B460M Pro4
 Audio codec:         Realtek ALC1200
-Ethernet card:       Intel® Gigabit LAN
+Ethernet card:       Intel® I219V12 Gigabit Ethernet
 Wifi/Bluetooth card: None
 ```
 
