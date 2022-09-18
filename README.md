@@ -11,13 +11,12 @@ Ethernet card:       Intel® I219V12 Gigabit Ethernet
 Wifi/Bluetooth card: None
 ```
 
-# macOS Monterey 12.4 & OpenCore 0.8.0
+# macOS Monterey 12.4 / OpenCore 0.8.0
 
 https://dortania.github.io/OpenCore-Desktop-Guide
 
 # Works
-- Sleep
-- Wake
+- Sleep / Wake
 - Audio
 - Ethernet
 - All USB ports (2.0, 3.0 & Type-C)
